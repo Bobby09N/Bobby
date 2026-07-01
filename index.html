@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>بابک | وب سایت شخصی</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;600;700;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body>
+    <div id="loader"><div class="spinner"></div></div>
+
+    <header>
+        <nav>
+            <div class="logo">بابک</div>
+            <ul>
+                <li><a href="#home">خانه</a></li>
+                <li><a href="#about">درباره من</a></li>
+                <li><a href="#skills">مهارت ها</a></li>
+                <li><a href="#services">خدمات</a></li>
+                <li><a href="#portfolio">نمونه کار</a></li>
+                <li><a href="#contact">تماس</a></li>
+            </ul>
+            <div id="themeBtn"><i class="fa-solid fa-moon"></i></div>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-text">
+            <h3>سلام 👋</h3>
+            <h1>من بابک هستم</h1>
+            <h2><span id="typing"></span></h2>
+            <p>طراح سایت، برنامه نویس و علاقه مند به تکنولوژی</p>
+            <a href="#portfolio" class="btn">نمونه کارها</a>
+        </div>
+        <div class="hero-image">
+            <img src="images/logo.png" alt="پروفایل بابک" />
+        </div>
+    </section>
+
+    <section id="about">
+        <h2 class="title">درباره من</h2>
+        <div class="about-box">
+            <p>من بابک هستم؛ عاشق طراحی سایت و برنامه نویسی. هدف من ساخت وب سایت های حرفه ای، سریع و زیبا است.</p>
+            <div class="info">
+                <div><h3>نام</h3><p>بابک</p></div>
+                <div><h3>سن</h3><p>17</p></div>
+                <div><h3>شهر</h3><p>شیراز</p></div>
+                <div><h3>تجربه</h3><p>3 سال</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2 class="title">مهارت ها</h2>
+        <div class="skill"><span>HTML</span><div class="progress"><div class="bar html">۹۵٪</div></div></div>
+        <div class="skill"><span>CSS</span><div class="progress"><div class="bar css">۹۰٪</div></div></div>
+        <div class="skill"><span>JavaScript</span><div class="progress"><div class="bar js">۸۵٪</div></div></div>
+        <div class="skill"><span>React</span><div class="progress"><div class="bar react">۷۵٪</div></div></div>
+    </section>
+
+    <section id="services">
+        <h2 class="title">خدمات</h2>
+        <div class="cards">
+            <div class="card"><i class="fa-solid fa-code"></i><h3>طراحی سایت</h3><p>طراحی انواع وب سایت شرکتی، فروشگاهی و شخصی</p></div>
+            <div class="card"><i class="fa-solid fa-mobile-screen-button"></i><h3>ریسپانسیو</h3><p>نمایش عالی در موبایل و تبلت</p></div>
+            <div class="card"><i class="fa-solid fa-bolt"></i><h3>بهینه سازی</h3><p>سرعت بالا و سئو مناسب</p></div>
+        </div>
+    </section>
+
+<section id="portfolio">
+    <h2 class="title">نمونه کارها</h2>
+    <div class="gallery">
+
+            <a href="https://github.com/Bobby09N/node-uptime-monitor" target="_blank" class="project-link">
+                <div class="project">
+                    <img src="images/num.png" alt="پروژه اول" />
+                    <div class="overlay">
+                        <p style="font-size:14px; opacity:0.8; margin-top:10px;">مشاهده در گیت‌هاب</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://github.com/Bobby09N/safebox" target="_blank" class="project-link">
+                <div class="project">
+                    <img src="images/safebox.png" alt="پروژه دوم" />
+                    <div class="overlay">
+                        <p style="font-size:14px; opacity:0.8; margin-top:10px;">مشاهده در گیت‌هاب</p>
+                    </div>
+                </div>
+            </a>
+
+
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="title">تماس با من</h2>
+        <form>
+            <input type="text" placeholder="نام" />
+            <input type="email" placeholder="ایمیل" />
+            <textarea placeholder="پیام"></textarea>
+            <button>ارسال پیام</button>
+        </form>
+    </section>
+
+    <footer>
+        <h3>© تمامی حقوق برای بابک محفوظ است.</h3>
+        <div class="social">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-telegram"></i>
+            <i class="fab fa-github"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+    </footer>
+
+    <button id="topBtn"><i class="fa-solid fa-arrow-up"></i></button>
+    <script src="script.js"></script>
+</body>
+</html>
